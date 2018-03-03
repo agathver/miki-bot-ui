@@ -1,0 +1,35 @@
+.TextInput {
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    padding: 1em 0;
+}
+
+.TextInput>input[type="text"] {
+    border-radius: 1em;
+    border: 1px solid #eee;
+    box-shadow: none;
+    box-sizing: border-box;
+    font-size: 14px;
+    outline: none;
+    padding: 1em;
+    width: 100%;
+    margin-right: 1em;
+}
+
+.TextInput>button {
+    border: 0;
+    border-bottom-right-radius: 10px;
+    box-shadow: none;
+    cursor: default;
+    fill: #f0f0f0;
+    outline: none;
+    padding: 14px 16px 12px 16px;
+    /* position: absolute;
+    right: 0;
+    top: 0; */
+    background: #6E48AA;
+    border-radius: 50%;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+}
